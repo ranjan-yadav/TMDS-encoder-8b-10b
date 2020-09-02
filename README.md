@@ -1,4 +1,4 @@
-# TMDS-encoder-8b-10b
+# TMDS-encoder-8b/10b
 TMDS is a method for serially transmitting high-speed digital signals.  
 The “transition minimized” part is realized by the 8b/10b encoding algorithm used by TMDS, which is implemented here in digital logic.  
 This TMDS encoding is used in several digital communication interfaces, including the DVI and HDMI video interfaces. 
