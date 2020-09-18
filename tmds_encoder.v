@@ -12,7 +12,7 @@ reg [8:0]q_m;
 reg [3:0]counter2=0;
 reg [3:0]counter3=0;
 reg [3:0]diff_q_m=0;
-reg [3:0]disparity=0;
+reg [31:0]disparity=0;
 
 always @(posedge clk)
 begin
@@ -190,7 +190,7 @@ begin
 	counter2=0;
 	counter3=0;
 	q_m=0;
-	disparity=0;
+	//disparity=0;
 	diff_q_m=0;
 			
 end
